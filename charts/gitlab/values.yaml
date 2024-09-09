@@ -30,6 +30,9 @@ gitlab:
   #   repo:
   #   - name: software-templates
   #     url: https://github.com/treddy08/software-templates.git
+  applications:
+    keycloak:
+      secret: gitlab-keycloak-client-credentials
 
 postgresql:
   dbUser: gitlab
