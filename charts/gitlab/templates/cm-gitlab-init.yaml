@@ -194,7 +194,7 @@ data:
             body_format: form-urlencoded
             body:
               name: keycloak
-              redirect_uri: https://{{ $.Values.gitlab.host }}/auth/realms/backstage/broker/GitLab/endpoint
+              redirect_uri: {{ $.Values.gitlab.applications.keycloak.callbackUrl }}
               scopes: api read_user read_repository write_repository sudo openid profile email
               confidential: false
             headers:

@@ -33,6 +33,7 @@ gitlab:
   applications:
     keycloak:
       secret: gitlab-keycloak-client-credentials
+      callbackUrl:
 
 postgresql:
   dbUser: gitlab
