@@ -38,7 +38,7 @@ gitlab:
           url: https://github.com/btison/pwe-parasol-store-dev-templates.git
         - name: import-existing-app-template
           url: https://github.com/redhat-pe-workshop/import-existing-app-template.git
-        - name: import-existing-app-template
+        - name: import-existing-api-template
           url: https://github.com/redhat-pe-workshop/import-api-template.git
       users:
         - id: pe1
